@@ -1,0 +1,12 @@
+body {
+    background-image: url(https://blogs.esa.int/space19plus/files/2019/03/nebula.jpg);
+}
+
+#gameScreen {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 350px;
+    margin-top: 140px;
+    border: 2px solid white;
+}
