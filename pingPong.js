@@ -73,6 +73,7 @@ document.addEventListener('keydown', (event) => {
 
     // start the game
     if (canEnter === true && event.keyCode === 32) {
+        canEnter = false;
         backgroundMusic.volume = 0.05;
         pingPongAudio.volume = 0.25;
         backgroundMusic.play();
